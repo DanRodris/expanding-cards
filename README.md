@@ -26,7 +26,6 @@ Expanding-Cards/
 ```
 
 ## 🖥️ Demonstração Visual
-Adicione aqui uma captura de tela ou GIF da interface mostrando os cartões em ação.
 
 ![Demonstração do Projeto](./Expanding_cards.gif)
 
