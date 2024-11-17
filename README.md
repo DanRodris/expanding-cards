@@ -66,4 +66,4 @@ Contribuições são bem-vindas! Para contribuir:
 ## 🖊️ Licença
 Este projeto está sob a licença [MIT](https://choosealicense.com/licenses/mit/). Consulte o arquivo LICENSE para mais detalhes.
 
-## Desenvolvido com por Seu Danilo Rodrigues de Souza.
+## Desenvolvido por Danilo Rodrigues de Souza.
