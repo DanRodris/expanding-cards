@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex; /* Torna o body um container flex */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    height: 100vh; /* Faz o body ocupar a altura total da janela */
+    overflow: hidden;
+    background-color: #333; /* Cor de fundo para destacar o container */
+    
+
+}
+
+.container{
+    display: flex;
+    width: 90vw;
+    height: 80vh;
+    
+    
+    
+   
+}
+
+.panel{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50px;
+    color: #fff;
+    cursor: pointer;
+    flex:0.5;
+    margin: 10px;
+    position: relative;
+    transition: flex 0.7s ease-in;
+
+}
+.panel h3{
+    font-size: 24px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    margin: 0;
+    opacity: 0;
+}
+
+.panel.active{
+    flex: 5;
+}
+
+.panel.active h3{
+    opacity: 1;
+    transition: opacity 0.3s ease-in 0.4s;
+}
+
+@media screen and (max-width:480px){
+    .container{
+        flex-wrap: wrap;
+            /* Permite que os painéis se ajustem à largura */
+       width: 100vw; 
+    }
+    .panel:nth-of-type(7),.panel:nth-of-type(8){
+        display: none;
+
+    }
+}
