@@ -32,7 +32,7 @@ Expanding-Cards/
 ## 📋 Como Usar
 1. Clone o Repositório:
     ```bash
-git clone https://github.com/DanRodris/expanding-cards.git
+        git clone https://github.com/DanRodris/expanding-cards.git
     ```
 2. Acesse o Diretório do Projeto:
     ```bash
