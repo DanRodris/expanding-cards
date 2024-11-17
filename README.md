@@ -17,7 +17,7 @@ Este projeto é uma interface interativa de Cartões Expansíveis (Expanding Car
 ### Expanding-Cards/
 
    ```plaintext
-Desenvolvido com por Seu Danilo Rodrigues de Souza.Expanding-Cards/
+Expanding-Cards/
 │
 ├── index.html          # Estrutura do layout da página
 ├── style.css           # Estilização do projeto
@@ -64,8 +64,7 @@ Contribuições são bem-vindas! Para contribuir:
 3. Envie um pull request. 
 
 
-
-
-
 ## 🖊️ Licença
 Este projeto está sob a licença [MIT](https://choosealicense.com/licenses/mit/). Consulte o arquivo LICENSE para mais detalhes.
+
+## Desenvolvido com por Seu Danilo Rodrigues de Souza.
